@@ -1,0 +1,7 @@
+  super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        progreso= new ProgressDialog(this);
+        progreso.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        progreso.setIcon(R.drawable.ic_launcher_background);
+        progreso.setTitle("Barras de Progreso");
+        progreso.show();
